@@ -1,11 +1,11 @@
-﻿Item,Digikey,Quantity,individual cost,total cost,running total
-male headers (6 pins long ea.),https://www.digikey.com/product-detail/en/metz-connect-usa-inc/PR20206VBNN/1849-PR20206VBNN-ND/12342874,5,$0.12 ,$0.60 ,$0.60 
-330 Ohm resistors,https://www.digikey.com/products/en/resistors/through-hole-resistors/53?k=&pkeyword=&sv=0&pv1989=0&pv2085=u330+Ohms&pv2=16543&sf=1&FV=-8%7C53&quantity=&ColumnSort=0&page=1&pageSize=25,4,$0.10 ,$0.40 ,$1.00 
-10 KOhm resistors,https://www.digikey.com/products/en/resistors/through-hole-resistors/53?k=&pkeyword=&sv=0&pv2085=u10+kOhms&sf=0&FV=2%7C16543%2C1989%7C0%2C-8%7C53&quantity=&ColumnSort=0&page=1&pageSize=25,5,$0.10 ,$0.50 ,$1.50 
-Single LED,https://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=5mm+led&k=&pkeyword=5mm+led&sv=0&sf=1&FV=69%7C411897%2C-8%7C105&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25,1,$0.15 ,$0.15 ,$1.65 
-RGB LED,https://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=RGB+LED&k=&pkeyword=RGB+LED&sv=0&pv1291=248761&sf=1&FV=37%7C395363%2C69%7C411897%2C-8%7C105%2C16%7C392286&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25,1,$1.01 ,$1.01 ,$2.66 
-Button,https://www.digikey.com/products/en/switches/tactile-switches/197?k=EVQ-PE&k=&pkeyword=EVQ-PE&sv=0&pv69=411897&sf=0&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25,1,$0.42 ,$0.42 ,$3.08 
-Encoder,https://www.digikey.com/product-detail/en/cui-devices/ACZ11BR1E-20FD1-20C/102-1768-ND/1923363,1,$3.48 ,$3.48 ,$6.56 
-Potentiometer,https://www.digikey.com/products/en/potentiometers-variable-resistors/trimmer-potentiometers/80?k=potentiometer&k=&pkeyword=potentiometer&sv=0&pv2085=u5+kOhms&pv2085=u10+kOhms&pv2085=u20+kOhms&pv2085=u25+kOhms&sf=1&FV=69%7C411897%2C-8%7C80%2C24%7C413848&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25,1,$2.48 ,$2.48 ,$9.04 
-Phototcell,https://www.digikey.com/products/en/sensors-transducers/optical-sensors-photo-detectors-cds-cells/540?FV=-8%7C540&quantity=0&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&k=cds+photoresistor&pageSize=25&pkeyword=cds+photoresistor,1,$0.89 ,$0.89 ,$9.93 
-board,Fab Housse,1,$0.40 ,$0.40 ,$10.33 
+﻿Item,Quantity,individual cost,total cost,running total,Digikey
+male headers (6 pins long ea.),5,$0.12 ,$0.60 ,$0.60 ,https://www.digikey.com/product-detail/en/metz-connect-usa-inc/PR20206VBNN/1849-PR20206VBNN-ND/12342874
+330 Ohm resistors,4,$0.10 ,$0.40 ,$1.00 ,https://www.digikey.com/products/en/resistors/through-hole-resistors/53?k=&pkeyword=&sv=0&pv1989=0&pv2085=u330+Ohms&pv2=16543&sf=1&FV=-8%7C53&quantity=&ColumnSort=0&page=1&pageSize=25
+10 KOhm resistors,5,$0.10 ,$0.50 ,$1.50 ,https://www.digikey.com/products/en/resistors/through-hole-resistors/53?k=&pkeyword=&sv=0&pv2085=u10+kOhms&sf=0&FV=2%7C16543%2C1989%7C0%2C-8%7C53&quantity=&ColumnSort=0&page=1&pageSize=25
+Single LED,1,$0.15 ,$0.15 ,$1.65 ,https://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=5mm+led&k=&pkeyword=5mm+led&sv=0&sf=1&FV=69%7C411897%2C-8%7C105&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25
+RGB LED,1,$1.01 ,$1.01 ,$2.66 ,https://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=RGB+LED&k=&pkeyword=RGB+LED&sv=0&pv1291=248761&sf=1&FV=37%7C395363%2C69%7C411897%2C-8%7C105%2C16%7C392286&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25
+Button,1,$0.42 ,$0.42 ,$3.08 ,https://www.digikey.com/products/en/switches/tactile-switches/197?k=EVQ-PE&k=&pkeyword=EVQ-PE&sv=0&pv69=411897&sf=0&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25
+Encoder,1,$3.48 ,$3.48 ,$6.56 ,https://www.digikey.com/product-detail/en/cui-devices/ACZ11BR1E-20FD1-20C/102-1768-ND/1923363
+Potentiometer,1,$2.48 ,$2.48 ,$9.04 ,https://www.digikey.com/products/en/potentiometers-variable-resistors/trimmer-potentiometers/80?k=potentiometer&k=&pkeyword=potentiometer&sv=0&pv2085=u5+kOhms&pv2085=u10+kOhms&pv2085=u20+kOhms&pv2085=u25+kOhms&sf=1&FV=69%7C411897%2C-8%7C80%2C24%7C413848&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25
+Phototcell,1,$0.89 ,$0.89 ,$9.93 ,https://www.digikey.com/products/en/sensors-transducers/optical-sensors-photo-detectors-cds-cells/540?FV=-8%7C540&quantity=0&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&k=cds+photoresistor&pageSize=25&pkeyword=cds+photoresistor
+board,1,$0.40 ,$0.40 ,$10.33 ,Fab House
