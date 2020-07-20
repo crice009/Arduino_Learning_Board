@@ -160,8 +160,7 @@
 <libraries>
 <library name="E14_Arduino_revC">
 <packages>
-<package name="ARDUINO_UNO">
-<description>Footprint for representing an Arduino Uno board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle</description>
+<package name="ARDUINO_UNO_V2">
 <wire x1="66.04" y1="2.54" x2="66.04" y2="1.016" width="0.127" layer="20"/>
 <wire x1="66.04" y1="1.016" x2="65.024" y2="0" width="0.127" layer="20" curve="-90"/>
 <wire x1="65.024" y1="0" x2="1.016" y2="0" width="0.127" layer="20"/>
@@ -459,55 +458,11 @@
 <wire x1="9.525" y1="32.385" x2="9.525" y2="43.815" width="0.127" layer="21"/>
 <wire x1="9.525" y1="43.815" x2="-6.35" y2="43.815" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="43.815" x2="-6.35" y2="32.385" width="0.127" layer="21"/>
-<smd name="&lt;USB&gt;+V" x="7.7724" y="39.878" dx="1.27" dy="0.635" layer="1"/>
-<smd name="&lt;USB&gt;D+" x="7.7724" y="38.8874" dx="1.27" dy="0.635" layer="1"/>
-<smd name="&lt;USB&gt;D-" x="7.7724" y="37.8714" dx="1.27" dy="0.635" layer="1"/>
-<smd name="&lt;USB&gt;GND" x="7.7724" y="36.83" dx="1.27" dy="0.635" layer="1"/>
 <wire x1="-1.778" y1="3.2766" x2="11.7348" y2="3.2766" width="0.127" layer="21"/>
 <wire x1="11.7348" y1="3.2766" x2="11.7348" y2="12.2174" width="0.127" layer="21"/>
 <wire x1="11.7348" y1="12.2174" x2="-1.778" y2="12.2174" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="12.2174" x2="-1.778" y2="3.2766" width="0.127" layer="21"/>
-<smd name="&lt;PWR&gt;+V" x="3.8608" y="8.8138" dx="1.016" dy="0.508" layer="1" roundness="20"/>
-<smd name="&lt;PWR&gt;-V" x="3.8608" y="6.2738" dx="1.016" dy="0.508" layer="1" roundness="20"/>
-<text x="60.6806" y="30.4292" size="1.27" layer="21" rot="R270">ICSP</text>
-<circle x="62.23" y="32.004" radius="0.127" width="0.127" layer="21"/>
-<wire x1="66.802" y1="24.13" x2="67.437" y2="24.765" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="26.035" x2="66.802" y2="26.67" width="0.1524" layer="21"/>
-<wire x1="66.802" y1="26.67" x2="67.437" y2="27.305" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="28.575" x2="66.802" y2="29.21" width="0.1524" layer="21"/>
-<wire x1="66.802" y1="29.21" x2="67.437" y2="29.845" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="31.115" x2="66.802" y2="31.75" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="24.13" x2="62.357" y2="24.765" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="24.765" x2="62.357" y2="26.035" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="26.035" x2="62.992" y2="26.67" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="26.67" x2="62.357" y2="27.305" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="27.305" x2="62.357" y2="28.575" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="28.575" x2="62.992" y2="29.21" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="29.21" x2="62.357" y2="29.845" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="29.845" x2="62.357" y2="31.115" width="0.1524" layer="21"/>
-<wire x1="62.357" y1="31.115" x2="62.992" y2="31.75" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="26.67" x2="66.802" y2="26.67" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="29.21" x2="66.802" y2="29.21" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="31.75" x2="66.802" y2="31.75" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="29.845" x2="67.437" y2="31.115" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="27.305" x2="67.437" y2="28.575" width="0.1524" layer="21"/>
-<wire x1="67.437" y1="24.765" x2="67.437" y2="26.035" width="0.1524" layer="21"/>
-<wire x1="62.992" y1="24.13" x2="66.802" y2="24.13" width="0.1524" layer="21"/>
-<pad name="GND_" x="66.167" y="25.4" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="RESET." x="63.627" y="25.4" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="MOSI" x="66.167" y="27.94" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="SCK" x="63.627" y="27.94" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="+5V" x="66.167" y="30.48" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<pad name="MISO" x="63.627" y="30.48" drill="1.016" diameter="1.8796" shape="octagon" rot="R90"/>
-<rectangle x1="65.913" y1="25.146" x2="66.421" y2="25.654" layer="51" rot="R90"/>
-<rectangle x1="63.373" y1="25.146" x2="63.881" y2="25.654" layer="51" rot="R90"/>
-<rectangle x1="63.373" y1="27.686" x2="63.881" y2="28.194" layer="51" rot="R90"/>
-<rectangle x1="65.913" y1="27.686" x2="66.421" y2="28.194" layer="51" rot="R90"/>
-<rectangle x1="63.373" y1="30.226" x2="63.881" y2="30.734" layer="51" rot="R90"/>
-<rectangle x1="65.913" y1="30.226" x2="66.421" y2="30.734" layer="51" rot="R90"/>
 <wire x1="64.77" y1="3.175" x2="64.77" y2="1.905" width="0.2032" layer="21"/>
-<text x="24.3332" y="32.4358" size="2.54" layer="121">Arduino</text>
-<text x="24.3332" y="28.5496" size="2.54" layer="121">Uno</text>
 <text x="62.865" y="48.895" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">0</text>
 <text x="60.325" y="48.895" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">1</text>
 <text x="57.785" y="48.895" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">2</text>
@@ -522,10 +477,18 @@
 <text x="33.274" y="49.022" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">11</text>
 <text x="30.734" y="49.022" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">12</text>
 <text x="28.194" y="49.022" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">13</text>
+<text x="18.034" y="49.022" size="1.4224" layer="25" font="vector" ratio="14" rot="R270">SCL</text>
+<text x="20.574" y="49.022" size="1.4224" layer="25" font="vector" ratio="14" rot="R270">SDA</text>
+<text x="30.988" y="4.572" size="1.016" layer="25" font="vector" ratio="14" rot="R90">I/O_REF</text>
+<text x="28.448" y="4.572" size="1.016" layer="25" font="vector" ratio="14" rot="R90">N/C</text>
+<circle x="15.24" y="50.8" radius="1.524" width="0.1524" layer="20"/>
+<circle x="13.97" y="2.54" radius="1.570903125" width="0.1524" layer="20"/>
+<circle x="66.04" y="7.62" radius="1.55023125" width="0.1524" layer="20"/>
+<circle x="66.04" y="35.56" radius="1.524" width="0.1524" layer="20"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ARDUINO_UNO">
+<symbol name="ARDUINO_UNO_V2">
 <description>Schematic symbol for representing an Arduino Uno board in an EAGLE schematic.
 Created by Dave Young for Element14.  More EAGLE documentation at:
 http://www.element14.com/community/community/knode/cadsoft_eagle</description>
@@ -561,12 +524,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <pin name="RESET" x="-7.62" y="-22.86" length="short" rot="R90"/>
 <pin name="IOREF" x="-10.16" y="-22.86" length="short" rot="R90"/>
 <pin name="(N/C)" x="-12.7" y="-22.86" length="short" rot="R90"/>
-<pin name="&lt;PWR&gt;-V" x="-33.02" y="-15.24" length="short"/>
-<pin name="&lt;PWR&gt;+V" x="-33.02" y="-12.7" length="short"/>
-<pin name="&lt;USB&gt;GND" x="-33.02" y="-5.08" length="short"/>
-<pin name="&lt;USB&gt;D-" x="-33.02" y="-2.54" length="short"/>
-<pin name="&lt;USB&gt;D+" x="-33.02" y="0" length="short"/>
-<pin name="&lt;USB&gt;+V" x="-33.02" y="2.54" length="short"/>
 <wire x1="-30.48" y1="17.78" x2="27.94" y2="17.78" width="0.254" layer="94"/>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="10.16" width="0.254" layer="94"/>
 <wire x1="27.94" y1="10.16" x2="30.48" y2="7.62" width="0.254" layer="94"/>
@@ -575,27 +532,18 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <wire x1="27.94" y1="-20.32" x2="-30.48" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-30.48" y1="-20.32" x2="-30.48" y2="17.78" width="0.254" layer="94"/>
 <text x="-15.24" y="2.54" size="3.81" layer="94">ARDUINO UNO</text>
-<pin name="+5V" x="22.86" y="-2.54" visible="off" length="point"/>
-<pin name="MOSI" x="22.86" y="-5.08" visible="off" length="point"/>
-<pin name="GND_" x="22.86" y="-7.62" visible="off" length="point"/>
-<pin name="RESET." x="20.32" y="-7.62" visible="off" length="point" rot="R180"/>
-<pin name="SCK" x="20.32" y="-5.08" visible="off" length="point" rot="R180"/>
-<pin name="MISO" x="20.32" y="-2.54" visible="off" length="point" rot="R180"/>
-<text x="19.558" y="-1.016" size="1.27" layer="94">ICSP</text>
-<circle x="18.542" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="-15.24" y="0" size="1.016" layer="94" font="vector" ratio="14">Simple Shield only</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARDUINO_UNO" prefix="PCB">
-<description>Device for representing an Arduino Uno board with a footprint in an EAGLE design. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle</description>
+<deviceset name="ARDUINO_UNO_V2">
 <gates>
-<gate name="G$1" symbol="ARDUINO_UNO" x="0" y="0"/>
+<gate name="G$1" symbol="ARDUINO_UNO_V2" x="30.48" y="20.32"/>
 </gates>
 <devices>
-<device name="" package="ARDUINO_UNO">
+<device name="" package="ARDUINO_UNO_V2">
 <connects>
 <connect gate="G$1" pin="(N/C)" pad="N/C"/>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
 <connect gate="G$1" pin="0(RX)" pad="0"/>
 <connect gate="G$1" pin="1(TX)" pad="1"/>
 <connect gate="G$1" pin="12" pad="12"/>
@@ -608,12 +556,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="&lt;PWR&gt;+V" pad="&lt;PWR&gt;+V"/>
-<connect gate="G$1" pin="&lt;PWR&gt;-V" pad="&lt;PWR&gt;-V"/>
-<connect gate="G$1" pin="&lt;USB&gt;+V" pad="&lt;USB&gt;+V"/>
-<connect gate="G$1" pin="&lt;USB&gt;D+" pad="&lt;USB&gt;D+"/>
-<connect gate="G$1" pin="&lt;USB&gt;D-" pad="&lt;USB&gt;D-"/>
-<connect gate="G$1" pin="&lt;USB&gt;GND" pad="&lt;USB&gt;GND"/>
 <connect gate="G$1" pin="A0" pad="A0"/>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
@@ -624,13 +566,8 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND." pad="GND."/>
 <connect gate="G$1" pin="GND.." pad="GND.."/>
-<connect gate="G$1" pin="GND_" pad="GND_"/>
 <connect gate="G$1" pin="IOREF" pad="I/OREF"/>
-<connect gate="G$1" pin="MISO" pad="MISO"/>
-<connect gate="G$1" pin="MOSI" pad="MOSI"/>
 <connect gate="G$1" pin="RESET" pad="RESET"/>
-<connect gate="G$1" pin="RESET." pad="RESET."/>
-<connect gate="G$1" pin="SCK" pad="SCK"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="~10" pad="10"/>
 <connect gate="G$1" pin="~11" pad="11"/>
@@ -1101,7 +1038,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="E14_Arduino_revC" deviceset="ARDUINO_UNO" device=""/>
+<part name="PCB1" library="E14_Arduino_revC" deviceset="ARDUINO_UNO_V2" device=""/>
 <part name="RED" library="fab" deviceset="LED" device="FAB1206" value="LEDFAB1206"/>
 <part name="GREEN" library="fab" deviceset="LED" device="FAB1206" value="LEDFAB1206"/>
 <part name="BLUE" library="fab" deviceset="LED" device="FAB1206" value="LEDFAB1206"/>
