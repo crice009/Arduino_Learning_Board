@@ -12,6 +12,14 @@
   - Note: on most Arduinos there is already an LED on the board
     attached to pin 13.
 
+  Turns on and off a light emitting diode(LED) connected to digital pin 8,
+  when pressing a pushbutton attached to pin 7.
+
+  The circuit:
+  - LED attached from pin 8 to ground
+  - pushbutton attached to pin 7 from +5V
+  - 10K resistor attached to pin 7 from ground
+
   created 2005
   by DojoDave <http://www.0j0.org>
   modified 30 Aug 2011

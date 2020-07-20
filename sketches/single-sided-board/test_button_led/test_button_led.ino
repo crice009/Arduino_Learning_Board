@@ -1,16 +1,13 @@
 /*
   Button
 
-  Turns on and off a light emitting diode(LED) connected to digital pin 13,
-  when pressing a pushbutton attached to pin 2.
+  Turns on and off a light emitting diode(LED)s connected to digital pins 9 and 10,
+  when pressing a pushbutton attached to pin 2 or 3.
 
   The circuit:
-  - LED attached from pin 13 to ground
-  - pushbutton attached to pin 2 from +5V
-  - 10K resistor attached to pin 2 from ground
-
-  - Note: on most Arduinos there is already an LED on the board
-    attached to pin 13.
+  - LED attached from pin 9 to ground and 10 to ground
+  - pushbutton attached to pin 2 from +5V and pin 3 to +5V
+  - 10K resistor attached to pin 2 from ground and 10K resistor attached to pin 3 from ground
 
   created 2005
   by DojoDave <http://www.0j0.org>
