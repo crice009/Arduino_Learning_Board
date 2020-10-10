@@ -20,9 +20,9 @@
         <hr>
         <h2>Double Sided Boards - order from Fab House</h2>
         <div style="display:flex;justify-content:space-around;">
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/raw/master/eagle/lb_uno_v1.3_2020-07-19.zip'>Gerber Files</a></h3>
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/blob/master/eagle/v1.3_bom_doublesided.csv'>Bill of Materials</a></h3>
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/raw/master/sketches/double-sided-board'>Example Sketches</a></h3>
+            <h3><a href='../eagle/lb_uno_v1.3_2020-07-19.zip'>Gerber Files</a></h3>
+            <h3><a href='../eagle/v1.3_bom_doublesided.csv'>Bill of Materials</a></h3>
+            <h3><a href='../sketches/double-sided-board'>Example Sketches</a></h3>
         </div>
         <p>
             The double sided boards give exposure to more type of inputs and outputs. They are also (probably) much easier as a first timer's exploration of soldering. Finally, since the board can be double-sided, several more components are able to be integrated
@@ -33,13 +33,13 @@
             be able to adjust the settings of the boards before you order. [The default ordering options are fine, if you are unsure about the choices. However, upgrades to ROHS (reduction of hazardous substances) and lead-free are always good choices.]
             Typically, your first order will have a promo for free shipping.
         </p>
-        <img src='https://raw.githubusercontent.com/crice009/Arduino_Learning_Board/master/eagle/schematic_v1.3.png' alt-text='board schematic' style='width: 100%' />
+        <img src='../eagle/schematic_v1.3.png' alt-text='board schematic' style='width: 100%' />
         <hr>
         <h2>Single Sided Boards - make in local Fab Lab</h2>
         <div style="display:flex;justify-content: space-around;">
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/raw/master/eagle/single-sided_v2_production.zip'>Files for Production</a></h3>
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/blob/master/eagle/v2_bom_singlesided.csv'>Bill of Materials</a></h3>
-            <h3><a href='https://github.com/crice009/Arduino_Learning_Board/raw/master/sketches/single-sided-board'>Example Sketches</a></h3>
+            <h3><a href='../eagle/laserable-single-sided.svg'>Files for Production</a></h3>
+            <h3><a href='../eagle/v2_bom_singlesided.csv'>Bill of Materials</a></h3>
+            <h3><a href='../sketches/single-sided-board/'>Example Sketches</a></h3>
         </div>
         <p>
             The single sided boards offer a chance to <a href='http://blog.inventables.com/2014/02/circuit-board-milling-on-shapeoko-2.html'>practice milling a circuit board on your own</a>! They also give a chance to start soldering surface mount components
@@ -51,7 +51,23 @@
             is available for sale from <a href='https://www.digikey.com/'>digikey.com</a>, <a href='https://www.inventables.com/'>inventables.com</a> and more suppliers. Endmills will also be needed to cut the copper of the board and these are available
             from many suppliers, such as <a href='http://www.carbidedepot.com/'>carbidedepot.com</a>, <a href='https://www.inventables.com/'>inventables.com</a> and others.
         </p>
-        <img src='https://raw.githubusercontent.com/crice009/Arduino_Learning_Board/master/eagle/schematic_single_v2.png' alt-text='board schematic' style='width: 100%' />
+        <img src='../eagle/schematic_single_v2.png' alt-text='board schematic' style='width: 100%' />
+        <hr>
+        <h2>Single Sided 555 Timer Boards - make in local Fab Lab without Drilling</h2>
+        <div style="display:flex;justify-content: space-around;">
+            <h3><a href='../eagle/laserable-555-blinker.svg'>Files for Production</a></h3>
+            <h3><a href='../eagle/#'>Bill of Materials</a></h3>
+        </div>
+        <p>
+            The single sided boards offer a chance to <a href='#'>practice making circuits with the laser and a chemical echant</a>! They also give a chance to start soldering surface mount components in the generous 1206 size. The 555 timer is a classic
+            that doesn't need programming, so you can just focus on making the board and soldering.
+        </p>
+        <p>
+            The "Files for Production" linked above are actually a single SVG file, that is intended to be used with a laser cutter. You'll need to get some single-sided copper FR4 board to make these circuits. First, you'll want to cover the copper with some ort
+            of resist layer. We reccomend a thin (but complete) layer of spray paint. The laser can then vector engrave the lines of the SVG to remove some of the spraypaint resist. Once this copper is exposed, Ferric chloride can be used to chemically
+            remove it, and thus define the traces and pads of the circuit. Then thoroughly clean the board and gently sand off the spraypaint. At this point, you should have a fully formed circuit board and be able to solder on the components.
+        </p>
+        <img src='../eagle/schematic_555.png' alt-text='board schematic' style='width: 100%' />
     </div>
 </body>
 
