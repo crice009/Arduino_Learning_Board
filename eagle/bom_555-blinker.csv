@@ -1,0 +1,11 @@
+﻿Item,Quantity,individual cost,total cost,running total,Digikey
+[8soic] 555-timer-IC (low-volts),1,$0.88 ,$0.88 ,$0.88 ,https://www.digikey.com/en/products/detail/texas-instruments/TLC555CDG4/1676492
+[1206] 1 KOhm resistors,2,$0.10 ,$0.20 ,$1.08 ,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAAYAOAdgE4R8wA2AVgBYBmekGMG9srr3aMKIALr4ADgBcoIAMrSATgEsAdgHMQAX3wxKzeCCSQ0WPIRLgABAGsA8gAsAtpnFTZkEAFU1K6fbIALLYqJgArkrYOvgAtHDQxlDK4RZEkKSGEiAycjEgsZyJJilpVmAC2ble%2BbGMRiVKqfjppJxVniA6utzl%2BvVi2kA
+[1206] 470 KOhm resistors,1,$0.15 ,$0.15 ,$1.23 ,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAAYAOAdgE4R8wA2AVgBYBmekGMG9srr3aMKIALr4ADgBcoIAMrSATgEsAdgHMQAX3wxKzeCCSQ0WPIRIhWVMgAIA1gHkAFgFtM4qbMggAqmoq0k7IALLYqJgArkrYOvgAtHDQxlDKURZEkKSGEiAycvEgCZwpJumZVmACeQW%2BRQmMRuVKGfhZpJy1PiA6utxV%2Bk1i2kA
+[1206] LED,1,$0.26 ,$0.26 ,$1.49 ,https://www.digikey.com/en/products/filter/led-indication-discrete/105?s=N4IgTCBcDaIIxgAwDYAEAbApgExAXQF8g
+[1206] 1uF Capacitor,1,$0.14 ,$0.14 ,$1.63 ,https://www.digikey.com/en/products/filter/ceramic-capacitors/60?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbXAAYAOAdlgCYQCwBWATjtmsfFdktngE6AZhqjuANlYS6rEAF0CABwAuUEAGUVAJwCWAOwDmIAL5MJCEMkjps%2BIqRCVh1MBEUhV6rXqOmh5LBy0FaomLgExJBkYAAEAK0AYgrKapAgAKr6uioA8igAsjhoWACu2jj%2BIAC0DCHWOqX2UWTMKZ5pIFXVFvVQjc2Owu1e6d3DfZADkY5g5COdpiYmQA
+CR1220 battery clip,1,$0.62 ,$0.62 ,$2.25 ,https://www.digikey.com/en/products/detail/keystone-electronics/2894/9921790
+,,,,,
+,,,,,
+,,,,,
+,,,,,
